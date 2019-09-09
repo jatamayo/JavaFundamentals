@@ -1,0 +1,73 @@
+/****************************************************************************************************/
+public class MyClass {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+/****************************************************************************************************/
+public class MyClass {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+/****************************************************************************************************/
+public class MyClass {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+    myMethod();
+    myMethod();
+  }
+}
+
+/****************************************************************************************************/
+public class MyClass {
+  static void myMethod(String fname) {
+    System.out.println(fname + " Refsnes");
+  }
+
+  public static void main(String[] args) {
+    myMethod("Liam");
+    myMethod("Jenny");
+    myMethod("Anja");
+  }
+}
+/****************************************************************************************************/
+public class MyClass {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+/****************************************************************************************************/
+public class MyClass {
+  static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(5, 3));
+  }
+}
+/****************************************************************************************************/
+public class MyClass {
+  static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+    int z = myMethod(5, 3);
+    System.out.println(z);
+  }
+}
+/****************************************************************************************************/
