@@ -1,0 +1,19 @@
+int numberOfDays; 
+byte nextInStream;
+short hour;
+long totalNumberOfStars;
+float reactionTime;
+double itemPrice;
+char example;
+boolean example;
+
+
+Initializing Variables
+Before a variable can be used it must be given an initial value. This is called initializing the variable. If we try to use a variable without first giving it a value:
+
+ int numberOfDays;
+ //try and add 10 to the value of numberOfDays
+ numberOfDays = numberOfDays + 10;
+ 
+the compiler will throw an error:
+ variable numberOfDays might not have been initialized 
